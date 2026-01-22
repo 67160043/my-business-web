@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ติดต่อเรา - First Technology</title>
+    <meta name="description" content="ข้อมูลติดต่อสำนักงานใหญ่ First Technology และช่องทางติดต่อทั่วไป" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <center>
+            <!-- 📸 ใส่รูป Logo ของบริษัท (ขนาดแนะนำ 100x100 px) -->
+            <img src="Logo.jpg" alt="First Technology Logo" width="100" height="100" />
+            <figcaption>FIRST TECHNOLOGY</figcaption>
+        </center>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                <li><a href="services.html">บริการ</a></li>
+                <li><a href="contact.html">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>📞 ติดต่อเรา</h1>
+        <p style="text-align: center; font-size: 1.2rem; color: #666; margin-bottom: 3rem;">
+            มีคำถามหรือต้องการปรึกษา? ทีมงานของเราพร้อมให้บริการคุณ
+        </p>
+
+        <!-- Contact Form -->
+        <section aria-labelledby="form">
+            <h2 id="form">✉️ ส่งข้อความหาเรา</h2>
+            <p style="margin-bottom: 2rem;">
+                กรอกข้อมูลด้านล่าง เราจะติดต่อกลับภายใน <strong>24 ชั่วโมง</strong> (วันทำการ)
+            </p>
+            
+            <form action="#" method="post">
+                <label for="name">ชื่อ - นามสกุล <span style="color: #ef4444;">*</span></label>
+                <input type="text" id="name" name="name" placeholder="กรุณากรอกชื่อ-นามสกุลของคุณ" required />
+
+                <label for="email">อีเมล <span style="color: #ef4444;">*</span></label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required />
+
+                <label for="phone">เบอร์โทรศัพท์</label>
+                <input type="text" id="phone" name="phone" placeholder="08X-XXX-XXXX" />
+
+                <label for="company">ชื่อบริษัท/องค์กร</label>
+                <input type="text" id="company" name="company" placeholder="ชื่อบริษัทของคุณ (ถ้ามี)" />
+
+                <label for="service">บริการที่สนใจ</label>
+                <select id="service" name="service" style="width: 100%; padding: 15px; margin-bottom: 20px; border: 2px solid #ddd; border-radius: 10px; font-family: inherit; font-size: 1rem;">
+                    <option value="">-- เลือกบริการที่สนใจ --</option>
+                    <option value="network">ระบบเครือข่าย (Network)</option>
+                    <option value="software">พัฒนาซอฟต์แวร์</option>
+                    <option value="web">พัฒนาเว็บไซต์</option>
+                    <option value="mobile">พัฒนา Mobile App</option>
+                    <option value="support">IT Support & Maintenance</option>
+                    <option value="consult">ปรึกษาทั่วไป</option>
+                    <option value="other">อื่นๆ</option>
+                </select>
+
+                <label for="message">รายละเอียดเพิ่มเติม <span style="color: #ef4444;">*</span></label>
+                <textarea id="message" name="message" rows="6" placeholder="บอกเราเกี่ยวกับโครงการหรือความต้องการของคุณ..." required></textarea>
+
+                <button type="submit">📨 ส่งข้อความ</button>
+            </form>
+        </section>
+
+        <!-- Contact Information -->
+        <section aria-labelledby="info">
+            <h2 id="info">🏢 ข้อมูลการติดต่อ</h2>
+            
+            <div style="display: grid; gap: 1.5rem; margin-top: 1.5rem;">
+                <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; border-left: 4px solid #2563eb;">
+                    <h3 style="color: #2563eb; margin-top: 0;">📍 สำนักงานใหญ่</h3>
+                    <p style="font-size: 1.1rem; line-height: 1.8;">
+                        <strong>First Technology Co., Ltd.</strong><br />
+                        85 หมู่ 4 ถนนพลงไสว<br />
+                        ตำบลคลัง อำเภอเมือง<br />
+                        จังหวัดระยอง 21190<br />
+                        ประเทศไทย
+                    </p>
+                </div>
+
+                <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; border-left: 4px solid #10b981;">
+                    <h3 style="color: #10b981; margin-top: 0;">☎️ ช่องทางติดต่อ</h3>
+                    <p style="font-size: 1.1rem; line-height: 2;">
+                        <strong>โทรศัพท์:</strong> 053-405-2994<br />
+                        <strong>มือถือ:</strong> 089-123-4567 (ฝ่ายขาย)<br />
+                        <strong>อีเมล:</strong> info@firsttech.co.th<br />
+                        <strong>Line ID:</strong> @firsttechnology
+                    </p>
+                </div>
+
+                <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; border-left: 4px solid #f59e0b;">
+                    <h3 style="color: #f59e0b; margin-top: 0;">🕐 เวลาทำการ</h3>
+                    <p style="font-size: 1.1rem; line-height: 2;">
+                        <strong>จันทร์ - ศุกร์:</strong> 08:00 - 18:00 น.<br />
+                        <strong>เสาร์:</strong> 09:00 - 15:00 น.<br />
+                        <strong>วันอาทิตย์และวันหยุดนักขัตฤกษ์:</strong> ปิดทำการ<br />
+                        <em style="color: #666; font-size: 0.95rem;">*IT Support 24/7 สำหรับลูกค้าที่มีสัญญา</em>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media -->
+        <section>
+            <h2>🌐 ติดตามเราได้ที่</h2>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; justify-content: center;">
+                <a href="#" style="display: inline-block; padding: 1rem 2rem; background: #1877f2; color: white; border-radius: 0.5rem; text-decoration: none; font-weight: 600;">
+                    📘 Facebook
+                </a>
+                <a href="#" style="display: inline-block; padding: 1rem 2rem; background: #0a66c2; color: white; border-radius: 0.5rem; text-decoration: none; font-weight: 600;">
+                    💼 LinkedIn
+                </a>
+                <a href="#" style="display: inline-block; padding: 1rem 2rem; background: #25d366; color: white; border-radius: 0.5rem; text-decoration: none; font-weight: 600;">
+                    💬 Line
+                </a>
+                <a href="#" style="display: inline-block; padding: 1rem 2rem; background: #ea4335; color: white; border-radius: 0.5rem; text-decoration: none; font-weight: 600;">
+                    📧 Email
+                </a>
+            </div>
+        </section>
+
+        <!-- Map Section (Placeholder) -->
+        <section>
+            <h2>🗺️ แผนที่</h2>
+            <div style="background: #ecf0f1; padding: 3rem; border-radius: 1rem; text-align: center; color: #666;">
+                <p style="font-size: 1.2rem; margin-bottom: 1rem;">
+                    📍 <strong>สำนักงานตั้งอยู่ที่ จ.ระยอง</strong>
+                </p>
+                <p>
+
+                </p>
+                <p style="margin-top: 1rem;">
+                    <a href="https://maps.google.com" target="_blank" style="color: #2563eb; font-weight: 600;">
+                        🔍 ดูใน Google Maps →
+                    </a>
+                </p>
+            </div>
+        </section>
+
+
+    <footer>
+        <p>© 2025 First Technology | พัฒนาเทคโนโลยีเพื่ออนาคตที่ดีกว่า</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+            📧 info@firsttech.co.th | ☎️ 053-405-2994
+        </p>
+    </footer>
+</body>
+
+</html>
